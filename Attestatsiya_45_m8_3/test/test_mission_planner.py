@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock, patch, call
-from mission_planner import MissionPlanner
+from ..mission_planner import MissionPlanner
 
 
 class TestMissionPlanner(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock, patch
-from uav_control import UAVControl
+from ..uav_control import UAVControl
 from pymavlink import mavutil
 
 
